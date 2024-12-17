@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="mainp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@multiplcation.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.group.cceproject.controllers.multiplicationcontroller">
+   <children>
+      <Label fx:id="mult6" layoutX="218.0" layoutY="218.0" text="Steps: " textFill="#41c9ff" />
+      <Label alignment="CENTER" layoutX="68.0" layoutY="74.0" prefHeight="18.0" prefWidth="476.0" text="Multiplication" textFill="#41c9ff">
+         <font>
+            <Font name="Consolas Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="164.0" text="Operating Multiplication:" textFill="#41c9ff" />
+      <Label fx:id="mult5" layoutX="70.0" layoutY="218.0" text="Current State: " textFill="#41c9ff" />
+      <Button fx:id="backbtn" layoutX="48.0" layoutY="32.0" mnemonicParsing="false" onAction="#backbtn" style="-fx-background-color: rgb(46, 55, 72); -fx-border-color: #41c9ff;" text="Back" textFill="#41c9ff" />
+      <Rectangle arcWidth="5.0" fill="#1f93ff00" height="26.0" layoutX="109.0" layoutY="187.0" stroke="#41c9ff" strokeType="INSIDE" width="29.0" />
+      <Rectangle arcWidth="5.0" fill="#1f93ff00" height="26.0" layoutX="137.0" layoutY="187.0" stroke="#41c9ff" strokeType="INSIDE" width="29.0" />
+      <Rectangle arcWidth="5.0" fill="#1f93ff00" height="26.0" layoutX="165.0" layoutY="187.0" stroke="#41c9ff" strokeType="INSIDE" width="29.0" />
+      <Rectangle arcWidth="5.0" fill="#1f93ff00" height="26.0" layoutX="193.0" layoutY="187.0" stroke="#41c9ff" strokeType="INSIDE" width="29.0" />
+      <Rectangle arcWidth="5.0" fill="#1f93ff00" height="26.0" layoutX="221.0" layoutY="187.0" stroke="#41c9ff" strokeType="INSIDE" width="29.0" />
+      <Rectangle arcWidth="5.0" fill="#1f93ff00" height="26.0" layoutX="249.0" layoutY="187.0" stroke="#41c9ff" strokeType="INSIDE" width="29.0" />
+      <Rectangle arcWidth="5.0" fill="#1f93ff00" height="26.0" layoutX="277.0" layoutY="187.0" stroke="#41c9ff" strokeType="INSIDE" width="29.0" />
+      <Rectangle arcWidth="5.0" fill="#1f93ff00" height="26.0" layoutX="305.0" layoutY="187.0" stroke="#41c9ff" strokeType="OUTSIDE" strokeWidth="3.0" width="29.0" />
+      <Rectangle arcWidth="5.0" fill="#1f93ff00" height="26.0" layoutX="333.0" layoutY="187.0" stroke="#41c9ff" strokeType="INSIDE" width="29.0" />
+      <Rectangle arcWidth="5.0" fill="#1f93ff00" height="26.0" layoutX="361.0" layoutY="187.0" stroke="#41c9ff" strokeType="INSIDE" width="29.0" />
+      <Rectangle arcWidth="5.0" fill="#1f93ff00" height="26.0" layoutX="389.0" layoutY="187.0" stroke="#41c9ff" strokeType="INSIDE" width="29.0" />
+      <Rectangle arcWidth="5.0" fill="#1f93ff00" height="26.0" layoutX="417.0" layoutY="187.0" stroke="#41c9ff" strokeType="INSIDE" width="29.0" />
+      <Rectangle arcWidth="5.0" fill="#1f93ff00" height="26.0" layoutX="445.0" layoutY="187.0" stroke="#41c9ff" strokeType="INSIDE" width="29.0" />
+      <Rectangle arcWidth="5.0" fill="#1f93ff00" height="26.0" layoutX="473.0" layoutY="187.0" stroke="#41c9ff" strokeType="INSIDE" width="29.0" />
+      <Rectangle arcWidth="5.0" fill="#1f93ff00" height="26.0" layoutX="501.0" layoutY="187.0" stroke="#41c9ff" strokeType="INSIDE" width="29.0" />
+      <Label fx:id="b1" alignment="CENTER" layoutX="110.0" layoutY="192.0" prefHeight="17.0" prefWidth="28.0" text="0" textFill="#41c9ff">
+         <font>
+            <Font name="Consolas" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="b2" alignment="CENTER" layoutX="138.0" layoutY="192.0" prefHeight="17.0" prefWidth="28.0" text="0" textFill="#41c9ff">
+         <font>
+            <Font name="Consolas" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="b3" alignment="CENTER" layoutX="166.0" layoutY="192.0" prefHeight="17.0" prefWidth="28.0" text="0" textFill="#41c9ff">
+         <font>
+            <Font name="Consolas" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="b4" alignment="CENTER" layoutX="194.0" layoutY="192.0" prefHeight="17.0" prefWidth="28.0" text="0" textFill="#41c9ff">
+         <font>
+            <Font name="Consolas" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="b5" alignment="CENTER" layoutX="222.0" layoutY="192.0" prefHeight="17.0" prefWidth="28.0" text="0" textFill="#41c9ff">
+         <font>
+            <Font name="Consolas" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="b6" alignment="CENTER" layoutX="250.0" layoutY="192.0" prefHeight="17.0" prefWidth="28.0" text="0" textFill="#41c9ff">
+         <font>
+            <Font name="Consolas" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="b7" alignment="CENTER" layoutX="278.0" layoutY="192.0" prefHeight="17.0" prefWidth="28.0" text="0" textFill="#41c9ff">
+         <font>
+            <Font name="Consolas" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="b8" alignment="CENTER" layoutX="306.0" layoutY="192.0" prefHeight="17.0" prefWidth="28.0" text="0" textFill="#41c9ff">
+         <font>
+            <Font name="Consolas" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="b9" alignment="CENTER" layoutX="334.0" layoutY="192.0" prefHeight="17.0" prefWidth="28.0" text="0" textFill="#41c9ff">
+         <font>
+            <Font name="Consolas" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="b10" alignment="CENTER" layoutX="362.0" layoutY="192.0" prefHeight="17.0" prefWidth="28.0" text="0" textFill="#41c9ff">
+         <font>
+            <Font name="Consolas" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="b11" alignment="CENTER" layoutX="390.0" layoutY="192.0" prefHeight="17.0" prefWidth="28.0" text="0" textFill="#41c9ff">
+         <font>
+            <Font name="Consolas" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="b12" alignment="CENTER" layoutX="418.0" layoutY="192.0" prefHeight="17.0" prefWidth="28.0" text="0" textFill="#41c9ff">
+         <font>
+            <Font name="Consolas" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="b13" alignment="CENTER" layoutX="446.0" layoutY="192.0" prefHeight="17.0" prefWidth="28.0" text="0" textFill="#41c9ff">
+         <font>
+            <Font name="Consolas" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="b14" alignment="CENTER" layoutX="474.0" layoutY="192.0" prefHeight="17.0" prefWidth="28.0" text="0" textFill="#41c9ff">
+         <font>
+            <Font name="Consolas" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="b15" alignment="CENTER" layoutX="502.0" layoutY="192.0" prefHeight="17.0" prefWidth="28.0" text="0" textFill="#41c9ff">
+         <font>
+            <Font name="Consolas" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
